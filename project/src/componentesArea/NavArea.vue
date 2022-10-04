@@ -12,12 +12,12 @@
                     <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Site Principal</a>
                 </li>
 				<router-link to="/homeArea">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Home</a>
                 </li>
 				</router-link>
 				<router-link to="/membersArea">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Membros</a>
                 </li>
 				</router-link>

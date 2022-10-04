@@ -2,18 +2,22 @@
 <div style="height:100vh">
     <Nav></Nav>
     <router-view></router-view>
+    <Rodape></Rodape>
  
 </div>
 </template>
   
   <script>
   import Nav from './componentesArea/NavArea.vue'
+  import Rodape from './components/Rodape.vue'
+
   
   export default {
     name: 'App',
     components: {
-      Nav
-  }
+    Nav,
+    Rodape
+}
   
   }
   

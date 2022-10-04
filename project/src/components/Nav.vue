@@ -8,12 +8,12 @@
             <ul class="navbar-nav ml-auto">
                 <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
 				<router-link to="/">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Home</a>
                 </li>
 				</router-link>
 				<router-link to="areas">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Áreas</a>
                 </li>
 				</router-link>
